@@ -34,7 +34,7 @@ description and suggested remediation strategy for each.
 6. Listing a set of matching rules that will be used by SneakerPark's MDM Hub to match item and customer entities between the company's different systems.
 7. Outlining of the data governance roles and responsibilities will be necessary to oversee this new Data Management initiative.
 
-![Enterprise conceptual model](images/enterprise_conceptual_model.png)  
+![Enterprise conceptual model](images/modified_enterprise_conceptual_model.svg)  
 
 Enterprise Conceptual Model  
 
@@ -48,3 +48,9 @@ Registry MDM Architecture
 MDM Database Structure  
 
 Relevant files for review are sneakerpark-governance.pptx and sneakerpark-data.xlsx
+
+
+## Changelog
+1.1 Review 20/09/2022 : 
+Update enterprise conceptual model to fix missing links between OrderItems and Listings  
+Update sneakerparkdata to show rowid of relevant missing data columns
